@@ -10,6 +10,8 @@ I compared vulnerable and improved versions of programs covering:
 - Format string vulnerability caused by passing user input directly to `printf()`
 
 The examples helped me practise checking input length and treating user input as data.
+<img width="746" height="442" alt="Screenshot 2026-10-05 131704" src="https://github.com/user-attachments/assets/28af7962-6203-4df9-957a-3dd2bbfa407c" />
+
 
 ## Web application security
 
@@ -19,6 +21,8 @@ Using PHP and MariaDB, I explored:
 - SQL injection in a login query built from user input
 - Using `htmlspecialchars()` to display input as text
 - Using a prepared statement to keep input separate from the SQL query
+
+<img width="711" height="557" alt="Screenshot 2026-10-05 131204" src="https://github.com/user-attachments/assets/521f9111-764f-45b8-8d1d-1ac41ec95344" />
 
 ## About these examples
 
