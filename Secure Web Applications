@@ -1,0 +1,45 @@
+# Secure Web Applications
+
+This project was completed as part of my **Secure Programming and Scripting** module.
+
+The aim was to explore common web application vulnerabilities and understand how secure coding practices can prevent them. I created small PHP applications using **PHP and MariaDB**, tested vulnerable behaviour, and then implemented safer versions.
+
+## Topics Covered
+
+During the project, I worked with:
+
+- GET and POST form processing
+- Cross-Site Scripting (XSS)
+- SQL Injection
+- Server-side input validation
+- Client-side validation limitations
+- Cookies and secure cookie settings
+- PHP sessions and session security
+- Prepared statements
+- Output sanitisation and escaping
+
+## Security Testing
+
+I tested how insecure handling of user input can affect a web application.
+
+For example, I explored how unescaped output can lead to **XSS**, how unsafe SQL queries can create **SQL Injection vulnerabilities**, and why client-side restrictions should not be relied on as a security control.
+
+I then applied safer approaches such as:
+
+- `htmlspecialchars()` for output encoding
+- Prepared statements for database queries
+- Server-side input validation
+- Input sanitisation
+- Secure cookie settings
+- Better session handling
+- HTTPS-related security practices
+
+## What I Learned
+
+This project helped me understand how small coding mistakes can create serious security issues.
+
+I also learned that secure web development requires more than making an application work correctly. User input should always be treated as untrusted, important validation should be performed on the server side, and sensitive data should be handled carefully.
+
+The project gave me practical experience with identifying vulnerabilities and improving insecure code using secure programming techniques.
+
+> This repository contains only selected examples and a project summary. Full coursework, assessment answers and detailed exploitation steps are intentionally not included.
